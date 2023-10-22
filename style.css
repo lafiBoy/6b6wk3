@@ -1,0 +1,152 @@
+body{
+    margin: auto;
+    width: 80%;
+}
+
+.button_1{
+    background-color: rgb(210, 9, 9);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-family:sans-serif;
+    height: 40px;
+    width: 105px;
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button_2{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    width: 120px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: rgb(71, 70, 70);
+    box-shadow: 1px 1px 5px;
+}
+
+.list{
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+    list-style: none;
+}   
+
+.list :hover{
+    text-decoration: underline;
+}
+
+.dropdown button{
+     border: none;
+     cursor: pointer;
+     background-color: rgba(240, 248, 255, 0);
+}
+
+.dropdown a{
+    display: block;
+    color: rgb(58, 56, 56);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    position: absolute;
+    background-color: #f5f5f5;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown a:hover{
+    text-decoration: underline;
+}
+
+.skylogo{
+    width: 500px;
+    margin-left: 250px;
+    border: 1px solid whitesmoke;
+}
+
+.headline1{
+    text-transform:uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(98, 98, 98);
+}
+
+.news1{
+    box-shadow: 1px 1px 2px;
+}
+
+.text1{
+    width: 149px;
+    float: right;
+    text-align: center;
+    margin-right:100px;
+    text-transform: capitalize;
+    color: rgb(93, 93, 93);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.news1 :hover{
+ text-decoration: underline;
+}
+
+.cover{
+    display: flex;
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: rgb(80, 80, 80);
+    text-transform: capitalize;
+}
+
+.cover img{
+    width: 319px;
+
+}
+
+.box{
+    margin: 10px;
+    box-shadow: 1px 1px 2px;
+}
+
+.headline2{
+    text-transform: uppercase;
+    color: rgb(67, 67, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cover :hover{
+    text-decoration: underline;
+}
+
+.button4{
+    text-transform: capitalize;
+    background-color:transparent;
+    border:1px solid #3157A1 ;
+    color:#3157A1 ;
+    font-size: 20px;
+    border-radius: 2px;
+    border-width: 1px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+
+.button4:hover{
+    background-color: #3157A1 ;
+    color: white;
+}
