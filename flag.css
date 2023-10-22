@@ -1,0 +1,38 @@
+h1{
+    padding: 3em 0;
+    text-align: center;
+    background: linear-gradient(to bottom,black 33%, red 33%, red 67%, yellow 67%);
+    }
+
+    h4 {
+        padding: 5em 0;
+        text-align: center;
+        background: linear-gradient(to bottom, red 30%, white 30%, white 33%, blue 33%, blue 70%,
+        white 70%, white 73%, green 73%);
+    }
+
+
+    h2{
+        border: 5px solid;
+        padding: 5em 0;
+        text-align: center;
+        background: radial-gradient(circle,  red 10%,  white 10%);
+        }
+  
+
+    h3{
+        padding: 5em 0;
+        text-align: center;
+        color: transparent;
+        font-size: 4em;
+        background-image: 
+        conic-gradient(
+            cyan 20%,
+            tomato 20%,
+            tomato 30%,
+            green 30%,
+            green 40%,
+            pink 80%,
+          );
+          -webkit-background-chip: text;
+        }
